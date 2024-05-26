@@ -1,0 +1,3 @@
+# In .cargo/config
+[build]
+rustflags = ["-C", "target-feature=+crt-static"]
